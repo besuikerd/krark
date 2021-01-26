@@ -1,25 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {initialState, performSimulation} from "./thumb/ThumbState";
+import {ThumbComponent} from "./thumb/components/Thumb";
+import {createStore} from "redux";
+import {reducer} from "./thumb/reducer";
+import {Provider} from "react-redux";
+
+const store = createStore(reducer, initialState)
+
+const state = performSimulation({
+  numberOfThumbs: 3,
+  numberOfKrarks: 3,
+  coinFlips: []
+})
+
+console.log(store.getState())
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div>
+        <ThumbComponent state={store.getState()}/>
+      </div>
+    </Provider>
   );
 }
 
