@@ -1,4 +1,4 @@
-export type Action = SetNumberOfThumbs | SetNumberOfKrarks | PerformSimulation
+export type Action = SetNumberOfThumbs | SetNumberOfKrarks | PerformSimulation | Reset
 
 
 const SetNumberOfKrarks = "SetNumberOfKrarks"
@@ -33,5 +33,15 @@ type PerformSimulation = {
 export function performSimulation(): PerformSimulation {
     return {
         type: PerformSimulation
+    }
+}
+
+const Reset = "Reset"
+type Reset = {
+    type: typeof Reset
+}
+export function reset(): Reset {
+    return {
+        type: Reset
     }
 }

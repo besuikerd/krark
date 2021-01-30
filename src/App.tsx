@@ -9,12 +9,6 @@ import {Provider} from "react-redux";
 
 const store = createStore(reducer, initialState)
 
-const state = performSimulation({
-  numberOfThumbs: 3,
-  numberOfKrarks: 3,
-  coinFlips: []
-})
-
 console.log(store.getState())
 
 function App() {

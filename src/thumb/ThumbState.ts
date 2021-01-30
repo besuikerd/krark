@@ -28,7 +28,7 @@ export function performSimulation(state: ThumbState): ThumbState {
 }
 
 export const initialState: ThumbState = {
-    numberOfKrarks: 1,
-    numberOfThumbs: 1,
+    numberOfKrarks: 2,
+    numberOfThumbs: 0,
     coinFlips: []
 }

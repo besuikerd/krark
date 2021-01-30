@@ -16,6 +16,8 @@ export function reducer(state: ThumbState = initialState, action: Action): Thumb
             }
         case "PerformSimulation":
             return performSimulation(state)
+        case "Reset":
+            return initialState
     }
     return state;
 }
