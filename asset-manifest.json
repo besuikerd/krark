@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/krark/static/css/main.24d7d7d0.chunk.css",
+    "main.js": "/krark/static/js/main.c3323318.chunk.js",
+    "main.js.map": "/krark/static/js/main.c3323318.chunk.js.map",
+    "runtime-main.js": "/krark/static/js/runtime-main.45f2b3ca.js",
+    "runtime-main.js.map": "/krark/static/js/runtime-main.45f2b3ca.js.map",
+    "static/js/2.4d4ed548.chunk.js": "/krark/static/js/2.4d4ed548.chunk.js",
+    "static/js/2.4d4ed548.chunk.js.map": "/krark/static/js/2.4d4ed548.chunk.js.map",
+    "static/js/3.71dce650.chunk.js": "/krark/static/js/3.71dce650.chunk.js",
+    "static/js/3.71dce650.chunk.js.map": "/krark/static/js/3.71dce650.chunk.js.map",
+    "index.html": "/krark/index.html",
+    "static/css/main.24d7d7d0.chunk.css.map": "/krark/static/css/main.24d7d7d0.chunk.css.map",
+    "static/js/2.4d4ed548.chunk.js.LICENSE.txt": "/krark/static/js/2.4d4ed548.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45f2b3ca.js",
+    "static/js/2.4d4ed548.chunk.js",
+    "static/css/main.24d7d7d0.chunk.css",
+    "static/js/main.c3323318.chunk.js"
+  ]
+}
